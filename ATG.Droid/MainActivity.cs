@@ -35,6 +35,8 @@ namespace ATG.Droid
 		protected override void OnCreate(Bundle bundle)
 		{
             //change by nick 7.0 arveen dkdasdsdafsdfsd dsaljfdlsak
+
+            //neems is fags
 			base.Window.RequestFeature(WindowFeatures.ActionBar);
 			base.SetTheme(Resource.Style.AppTheme);
 
