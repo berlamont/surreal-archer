@@ -36,7 +36,7 @@ namespace ATG.Droid
 		{
 			// Changing to App's theme since we are OnCreate and we are ready to 
 			// "hide" the splash
-            //test
+            //test arveen
 			base.Window.RequestFeature(WindowFeatures.ActionBar);
 			base.SetTheme(Resource.Style.AppTheme);
 
