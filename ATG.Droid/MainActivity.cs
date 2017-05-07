@@ -34,7 +34,7 @@ namespace ATG.Droid
 	{
 		protected override void OnCreate(Bundle bundle)
 		{
-            //change by nick 7.0 arveen dkdasdsdafsdfsd
+            //change by nick 7.0 arveen dkdasdsdafsdfsd nick is a nimcompoop
 			base.Window.RequestFeature(WindowFeatures.ActionBar);
 			base.SetTheme(Resource.Style.AppTheme);
 
