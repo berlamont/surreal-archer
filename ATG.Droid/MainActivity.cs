@@ -34,11 +34,7 @@ namespace ATG.Droid
 	{
 		protected override void OnCreate(Bundle bundle)
 		{
-			// Changing to App's theme since we are OnCreate and we are ready to 
-			// "hide" the splash
-            //test2 commit test
-
-            //hopefully this works
+            //change by nick 7.0
 			base.Window.RequestFeature(WindowFeatures.ActionBar);
 			base.SetTheme(Resource.Style.AppTheme);
 
