@@ -34,7 +34,7 @@ namespace ATG.Droid
 	{
 		protected override void OnCreate(Bundle bundle)
 		{
-            //arveeen is fag jew nigger cunt
+
 			base.Window.RequestFeature(WindowFeatures.ActionBar);
 			base.SetTheme(Resource.Style.AppTheme);
 
