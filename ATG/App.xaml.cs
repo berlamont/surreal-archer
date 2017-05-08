@@ -22,7 +22,7 @@ namespace ATG
 
 		public static Page GetMainPage()
         {
-            return new WelcomeStarterPage();
+            return new LoginPage();
         }
 	}
 }
