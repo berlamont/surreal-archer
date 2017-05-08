@@ -41,8 +41,6 @@ namespace ATG.Droid
 			FormsAppCompatActivity.ToolbarResource = Resource.Layout.Toolbar;
 			FormsAppCompatActivity.TabLayoutResource = Resource.Layout.Tabs;
 
-            //arveen likes men eating his ass like a cupcake
-
 			base.OnCreate(bundle);
 
 			CachedImageRenderer.Init();
