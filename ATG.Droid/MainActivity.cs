@@ -16,7 +16,7 @@ using UXDivers.Artina.Shared;
 using UXDivers.Artina.Shared.Droid;
 
 using FFImageLoading.Forms.Droid;
-
+using Parse;
 
 namespace ATG.Droid
 {
@@ -34,7 +34,6 @@ namespace ATG.Droid
 	{
 		protected override void OnCreate(Bundle bundle)
 		{
-            //arveeen is fag jew nigger cunt
 			base.Window.RequestFeature(WindowFeatures.ActionBar);
 			base.SetTheme(Resource.Style.AppTheme);
 
@@ -46,7 +45,6 @@ namespace ATG.Droid
 
 			base.OnCreate(bundle);
 
-			//Initializing FFImageLoading
 			CachedImageRenderer.Init();
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
@@ -54,7 +52,7 @@ namespace ATG.Droid
 
 			FormsHelper.ForceLoadingAssemblyContainingType(typeof(UXDivers.Effects.Effects));
 
-			LoadApplication(new App());
+            LoadApplication(new App());
 		}
 
 		public override void OnConfigurationChanged(Android.Content.Res.Configuration newConfig)
