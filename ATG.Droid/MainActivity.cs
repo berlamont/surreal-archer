@@ -50,14 +50,6 @@ namespace ATG.Droid
 
 			FormsHelper.ForceLoadingAssemblyContainingType(typeof(UXDivers.Effects.Effects));
 
-            /* PARSE-BACKEND INIT */
-
-            ParseClient.Initialize(new ParseClient.Configuration
-            {
-                ApplicationId = "5W6K38S1TQRPNVJV64Y9",
-                Server = "http://158.69.210.237:2017/backend/"
-            });
-
             LoadApplication(new App());
 		}
 

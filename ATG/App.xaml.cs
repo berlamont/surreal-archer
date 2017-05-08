@@ -15,8 +15,9 @@ namespace ATG
 		{
 			InitializeComponent();
 
-			MainPage = GetMainPage();
 
+
+            MainPage = GetMainPage();
 			MainPage.SetValue(NavigationPage.BarTextColorProperty, Color.White);
 		}
 
