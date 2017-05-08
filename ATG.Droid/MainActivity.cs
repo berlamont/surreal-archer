@@ -16,7 +16,7 @@ using UXDivers.Artina.Shared;
 using UXDivers.Artina.Shared.Droid;
 
 using FFImageLoading.Forms.Droid;
-
+using Parse;
 
 namespace ATG.Droid
 {
@@ -34,7 +34,6 @@ namespace ATG.Droid
 	{
 		protected override void OnCreate(Bundle bundle)
 		{
-
 			base.Window.RequestFeature(WindowFeatures.ActionBar);
 			base.SetTheme(Resource.Style.AppTheme);
 
@@ -44,7 +43,6 @@ namespace ATG.Droid
 
 			base.OnCreate(bundle);
 
-			//Initializing FFImageLoading
 			CachedImageRenderer.Init();
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
@@ -52,7 +50,15 @@ namespace ATG.Droid
 
 			FormsHelper.ForceLoadingAssemblyContainingType(typeof(UXDivers.Effects.Effects));
 
-			LoadApplication(new App());
+            /* PARSE-BACKEND INIT */
+
+            ParseClient.Initialize(new ParseClient.Configuration
+            {
+                ApplicationId = "5W6K38S1TQRPNVJV64Y9",
+                Server = "http://158.69.210.237:2017/backend/"
+            });
+
+            LoadApplication(new App());
 		}
 
 		public override void OnConfigurationChanged(Android.Content.Res.Configuration newConfig)
