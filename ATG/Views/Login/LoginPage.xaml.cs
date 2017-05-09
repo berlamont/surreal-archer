@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 
+
 using Xamarin.Forms;
 
 namespace ATG
@@ -19,6 +20,12 @@ namespace ATG
 		{
 			await Navigation.PopModalAsync();
 		}
+
+        async void OnRegisterClicked(object sender, EventArgs args)
+        {
+
+            await Navigation.PushAsync(new SignUpPage());
+        }
 
 		public static bool IsPageInNavigationStack<TPage>(INavigation navigation) where TPage : Page {
 			if (navigation.NavigationStack.Count > 1) {

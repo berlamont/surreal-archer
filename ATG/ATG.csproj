@@ -59,6 +59,7 @@
     <Compile Include="Helpers\IoniciconsFont.cs" />
     <Compile Include="Properties\AssemblyGlobal.cs" />
     <Compile Include="Views\Login\LoginPage.xaml.cs" />
+    <Compile Include="Views\Login\SignUpPage.xaml.cs" />
     <EmbeddedResource Include="Views\Navigation\WelcomeStarterPage.xaml.cs">
       <DependentUpon>WelcomeStarterPage.xaml</DependentUpon>
     </EmbeddedResource>
@@ -161,6 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\Login\LoginPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Login\SignUpPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

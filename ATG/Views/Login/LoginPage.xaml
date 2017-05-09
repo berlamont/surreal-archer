@@ -152,6 +152,7 @@
 							BackgroundColor="#3b5998"
 							VerticalOptions="End"
 							Text="Register"
+                            Clicked="OnRegisterClicked"
 							WidthRequest="{ artina:OnOrientationDouble
 								LandscapePhone=200,
 								LandscapeTablet=400 }"
