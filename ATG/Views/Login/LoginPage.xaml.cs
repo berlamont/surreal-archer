@@ -13,7 +13,6 @@ namespace ATG
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-
         }
 
 
@@ -32,7 +31,7 @@ namespace ATG
 
         void OnLoginClicked(object sender, EventArgs args)
         {
-           
+            String emailText = emailVar.Text;
         }
 
 

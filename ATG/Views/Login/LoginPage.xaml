@@ -115,7 +115,8 @@
 							VerticalOptions="StartAndExpand" >
 
 							<!---EMAIL FIELD--> 
-							<Entry x:Name = "userText"
+							<Entry 
+                                x:Name = "emailVar"
 								Placeholder="Username"
                                 Completed="Entry_Completed"
 								TextColor="{ DynamicResource OverImageTextColor }"
