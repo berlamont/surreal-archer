@@ -15,15 +15,14 @@ namespace ATG
 		{
 			InitializeComponent();
 
-
-
             MainPage = GetMainPage();
+
 			MainPage.SetValue(NavigationPage.BarTextColorProperty, Color.White);
 		}
 
 		public static Page GetMainPage()
         {
-            return new WelcomeStarterPage();
+            return new LoginPage();
         }
 	}
 }
