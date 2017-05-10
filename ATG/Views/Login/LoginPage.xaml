@@ -115,13 +115,15 @@
 							VerticalOptions="StartAndExpand" >
 
 							<!---EMAIL FIELD--> 
-							<Entry
-								Placeholder="E-mail"
+							<Entry x:Name = "userText"
+								Placeholder="Username"
+                                Completed="Entry_Completed"
 								TextColor="{ DynamicResource OverImageTextColor }"
 								Style="{DynamicResource ArtinaLoginEntryStyle}" />
-						
+                      
+                       
 
-							<Label
+                            <Label
 								HorizontalOptions="Start"
 								Text=" Please enter a valid e-mail " IsVisible="false"
 								Style="{DynamicResource ValidationEntryErrorStyle}"
@@ -166,6 +168,7 @@
 							Style="{DynamicResource PrimaryActionButtonStyle}"
 							VerticalOptions="End"
 							Text="Login"
+                            Clicked="OnLoginClicked"
 							WidthRequest="{ artina:OnOrientationDouble
 								LandscapePhone=200,
 								LandscapeTablet=400 }"
