@@ -29,10 +29,17 @@ namespace ATG
 
         }
 
-        void OnLoginClicked(object sender, EventArgs args)
+        public String GetUser(object sender, EventArgs args)
         {
             String emailText = emailVar.Text;
+            return emailText;
         }
+        public String GetPass(object sender, EventArgs args)
+        {
+            String passwordText = passVar.Text;
+            return passwordText;
+        }
+
 
 
 

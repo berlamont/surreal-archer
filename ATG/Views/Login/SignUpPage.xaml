@@ -117,8 +117,9 @@
 						Grid.Row="0"
 						VerticalOptions="Start">
 						<!---EMAIL FIELD--> 
-						<Entry 
-							Placeholder="E-mail"
+						<Entry
+                            x:Name= "phoneVar"
+							Placeholder="Phone Number"
 							Style="{DynamicResource ArtinaLoginEntryStyle}">
 
 							<Entry.Behaviors>
@@ -141,7 +142,8 @@
 					</StackLayout>
 
 					<!---USERNAME FIELD-->
-					<Entry 
+					<Entry
+                        x:Name= "  "
 						Grid.Row="1"	
 						Placeholder="Username"
 						Style="{DynamicResource ArtinaLoginEntryStyle}" 

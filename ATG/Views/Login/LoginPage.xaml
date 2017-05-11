@@ -118,7 +118,6 @@
 							<Entry 
                                 x:Name = "emailVar"
 								Placeholder="Username"
-                                Completed="Entry_Completed"
 								TextColor="{ DynamicResource OverImageTextColor }"
 								Style="{DynamicResource ArtinaLoginEntryStyle}" />
                       
@@ -134,6 +133,7 @@
 
 						<!---PASSWORD FIELD-->
 						<Entry 
+                            x:Name = "passVar"
 							Grid.Row="2"
 							Placeholder="Password"
 							IsPassword="true"
@@ -169,7 +169,7 @@
 							Style="{DynamicResource PrimaryActionButtonStyle}"
 							VerticalOptions="End"
 							Text="Login"
-                            Clicked="OnLoginClicked"
+                            Clicked="GetUser"
 							WidthRequest="{ artina:OnOrientationDouble
 								LandscapePhone=200,
 								LandscapeTablet=400 }"

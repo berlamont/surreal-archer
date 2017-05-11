@@ -58,6 +58,7 @@
     <Compile Include="Helpers\FontawesomeFont.cs" />
     <Compile Include="Helpers\IoniciconsFont.cs" />
     <Compile Include="Properties\AssemblyGlobal.cs" />
+    <Compile Include="Views\Login\LoginBackend.cs" />
     <Compile Include="Views\Login\LoginPage.xaml.cs" />
     <Compile Include="Views\Login\SignUpPage.xaml.cs" />
     <EmbeddedResource Include="Views\Navigation\WelcomeStarterPage.xaml.cs">
