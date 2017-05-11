@@ -215,6 +215,7 @@
 					Style="{DynamicResource TransparentButtonStyle}" 
 					VerticalOptions="End" 
 					Text="Already a user? Login now"
+                    Clicked="OnLoginClicked"
 					WidthRequest="{ artina:OnOrientationDouble
 						LandscapePhone=200,
 						LandscapeTablet=400 }"

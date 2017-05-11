@@ -14,8 +14,6 @@ namespace ATG
 			NavigationPage.SetHasNavigationBar(this, false);
 		}
 
-		
-
 		async void OnCloseButtonClicked(object sender, EventArgs args)
 		{
 			await Navigation.PopModalAsync();
