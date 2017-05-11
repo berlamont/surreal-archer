@@ -1,6 +1,8 @@
+using ATG.Views.Login;
+using Java.Util;
 using System;
 using System.Collections.Generic;
-
+using System.Diagnostics;
 using Xamarin.Forms;
 
 namespace ATG
@@ -39,6 +41,34 @@ namespace ATG
 			var loginPage = new LoginPage();
 			await Navigation.PushAsync(loginPage);
 		}
+
+
+        public void OnSignUpClicked(object sender, EventArgs e)
+        {
+            ArrayList signUp = new ArrayList();
+
+            String phone = phoneVar.Text;
+            signUp.Add(phone);
+
+            String user = userSignUp.Text;
+            signUp.Add(user);
+
+            String pass = passwordEntry.Text;
+            signUp.Add(pass);
+
+            LoginBackend backend = new LoginBackend();
+
+            if (backend.TryLogin(signUp) == true)
+            {
+                Navigation.PushAsync(new Page());
+            }
+
+        }
+        
+
+
+
+
 
         async void OnLoginClicked(object sender, EventArgs args)
         {
