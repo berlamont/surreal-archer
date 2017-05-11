@@ -39,8 +39,14 @@ namespace ATG
 			var loginPage = new LoginPage();
 			await Navigation.PushAsync(loginPage);
 		}
-		
-		async void OnCloseButtonClicked(object sender, EventArgs args)
+
+        async void OnLoginClicked(object sender, EventArgs args)
+        {
+
+            await Navigation.PushAsync(new LoginPage());
+        }
+
+        async void OnCloseButtonClicked(object sender, EventArgs args)
 		{
 			await Navigation.PopModalAsync();
 		}
