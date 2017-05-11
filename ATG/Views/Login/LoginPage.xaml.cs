@@ -32,19 +32,30 @@ namespace ATG
 
         }
 
-       /* void OnLoginClicked(object sender, EventArgs args)
+         void OnLoginClicked(object sender, EventArgs args)
         {
+            ArrayList Login = new ArrayList();
+            String username = emailVar.Text;
+
+            Login.Add(username);
+
+            String password = passVar.Text;
+
+            Login.Add(password);
+
+
             LoginBackend login = new LoginBackend();
-            if (login.TryLogin())
+            if (login.TryLogin(Login))
             {
+                Navigation.PushAsync(new Page());
                 
             }
 
 
         }
-        */
+       
 
-        public String GetUser()
+        public  String GetUser()
         {
             String emailText = emailVar.Text;
             return emailText;
