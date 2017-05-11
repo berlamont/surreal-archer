@@ -56,9 +56,9 @@ namespace ATG
             String pass = passwordEntry.Text;
             signUp.Add(pass);
 
-            LoginBackend backend = new LoginBackend();
+            RegisterBackend backend = new RegisterBackend();
 
-            if (backend.TryLogin(signUp) == true)
+            if (backend.TryRegister(signUp) == true)
             {
                 Navigation.PushAsync(new Page());
             }

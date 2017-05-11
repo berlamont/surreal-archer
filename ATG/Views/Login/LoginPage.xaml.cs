@@ -32,19 +32,17 @@ namespace ATG
 
         }
 
-        void OnLoginClicked(object sender, EventArgs args)
+       /* void OnLoginClicked(object sender, EventArgs args)
         {
-            LoginBackend backend = new LoginBackend();
-            SignUpPage signup = new SignUpPage();
-
-
-            if (backend.TryLogin(signup.getSignUp()){
-
+            LoginBackend login = new LoginBackend();
+            if (login.TryLogin())
+            {
+                
             }
 
 
         }
-
+        */
 
         public String GetUser()
         {
