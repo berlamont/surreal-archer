@@ -1,3 +1,0 @@
-﻿1>------ Build started: Project: ATG, Configuration: Debug Any CPU ------
-1>C:\Users\Swag\Desktop\surreal-archer-master\ATG\ATG.Views.Login.LoginPage.xaml(121,33): error : Position 121:33. EventHandler "Entry_Completed" not found in type "ATG.LoginPage"
-2>------ Build started: Project: ATG.Droid, Configuration: Debug Any CPU ------

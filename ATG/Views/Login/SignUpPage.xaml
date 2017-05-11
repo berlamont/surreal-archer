@@ -143,7 +143,7 @@
 
 					<!---USERNAME FIELD-->
 					<Entry
-                        x:Name= "  "
+                        x:Name= "userSignUp"
 						Grid.Row="1"	
 						Placeholder="Username"
 						Style="{DynamicResource ArtinaLoginEntryStyle}" 
@@ -151,7 +151,7 @@
 
 
 					<!---PASSWORD FIELD-->
-					<Entry x:Name="passwordEntry"
+					<Entry x:Name="passSignUp"
 						Grid.Row="2"
 						Placeholder="Password"
 						IsPassword="true"
