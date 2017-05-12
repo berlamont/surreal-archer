@@ -62,6 +62,7 @@
     <Compile Include="Views\Login\LoginPage.xaml.cs" />
     <Compile Include="Views\Login\RegisterBackend.cs" />
     <Compile Include="Views\Login\SignUpPage.xaml.cs" />
+    <Compile Include="Views\Login\UserSession.cs" />
     <EmbeddedResource Include="Views\Navigation\WelcomeStarterPage.xaml.cs">
       <DependentUpon>WelcomeStarterPage.xaml</DependentUpon>
     </EmbeddedResource>

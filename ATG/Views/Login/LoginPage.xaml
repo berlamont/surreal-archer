@@ -169,7 +169,7 @@
 							Style="{DynamicResource PrimaryActionButtonStyle}"
 							VerticalOptions="End"
 							Text="Login"
-                            Clicked="GetUser"
+                            Clicked="OnLoginClicked"
 							WidthRequest="{ artina:OnOrientationDouble
 								LandscapePhone=200,
 								LandscapeTablet=400 }"
