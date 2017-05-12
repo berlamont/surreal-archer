@@ -7,20 +7,12 @@ using System.Threading.Tasks;
 
 namespace ATG.Views.Login
 {
-    class LoginBackend
+    class RegisterBackend
     {
-
-        public Boolean TryLogin(ArrayList information)
+        public Boolean TryRegister(ArrayList Information)
         {
             return true;
         }
-
-        
-
-
-
-
-
 
 
 

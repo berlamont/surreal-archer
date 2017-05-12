@@ -1,9 +1,12 @@
 using System;
 using System.Diagnostics;
 using System.Collections.Generic;
+using System.Collections;
 
 
 using Xamarin.Forms;
+using Java.Util;
+using ATG.Views.Login;
 
 namespace ATG
 {
@@ -29,19 +32,42 @@ namespace ATG
 
         }
 
-        public String GetUser(object sender, EventArgs args)
+         void OnLoginClicked(object sender, EventArgs args)
+        {
+            ArrayList Login = new ArrayList();
+            String username = emailVar.Text;
+
+            Login.Add(username);
+
+            String password = passVar.Text;
+
+            Login.Add(password);
+
+
+            LoginBackend login = new LoginBackend();
+            if (login.TryLogin(Login))
+            {
+                Navigation.PushAsync(new Page());
+                
+            }
+
+
+        }
+       
+
+        public  String GetUser()
         {
             String emailText = emailVar.Text;
             return emailText;
         }
-        public String GetPass(object sender, EventArgs args)
+        public String GetPass()
         {
             String passwordText = passVar.Text;
             return passwordText;
         }
 
+       
 
-        
 
 
         public static bool IsPageInNavigationStack<TPage>(INavigation navigation) where TPage : Page {
