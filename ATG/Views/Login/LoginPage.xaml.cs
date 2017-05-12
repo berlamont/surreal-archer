@@ -41,7 +41,7 @@ namespace ATG
         }
 
 
-
+        
 
 
         public static bool IsPageInNavigationStack<TPage>(INavigation navigation) where TPage : Page {
