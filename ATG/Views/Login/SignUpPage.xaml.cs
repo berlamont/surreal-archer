@@ -60,7 +60,7 @@ namespace ATG
 
             if (backend.TryRegister(signUp) == true)
             {
-                Navigation.PushAsync(new Page());
+                Navigation.PushAsync(new WelcomeStarterPage());
             }
 
             else

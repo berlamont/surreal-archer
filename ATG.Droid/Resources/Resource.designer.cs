@@ -251,6 +251,7 @@ namespace ATG.Droid
 			global::Lottie.Forms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::ATG.Droid.Resource.Attribute.mediaRoutePlayDrawable;
 			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::ATG.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
 			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::ATG.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteStopDrawable = global::ATG.Droid.Resource.Attribute.mediaRouteStopDrawable;
 			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteTheme = global::ATG.Droid.Resource.Attribute.mediaRouteTheme;
 			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::ATG.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
 			global::Lottie.Forms.Droid.Resource.Attribute.menu = global::ATG.Droid.Resource.Attribute.menu;
@@ -769,6 +770,8 @@ namespace ATG.Droid
 			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_pause_light = global::ATG.Droid.Resource.Drawable.ic_media_pause_light;
 			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_play_dark = global::ATG.Droid.Resource.Drawable.ic_media_play_dark;
 			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_play_light = global::ATG.Droid.Resource.Drawable.ic_media_play_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_stop_dark = global::ATG.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_stop_light = global::ATG.Droid.Resource.Drawable.ic_media_stop_light;
 			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::ATG.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
 			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::ATG.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
 			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::ATG.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
@@ -888,6 +891,8 @@ namespace ATG.Droid
 			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_pause_light = global::ATG.Droid.Resource.Drawable.mr_media_pause_light;
 			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_play_dark = global::ATG.Droid.Resource.Drawable.mr_media_play_dark;
 			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_play_light = global::ATG.Droid.Resource.Drawable.mr_media_play_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_stop_dark = global::ATG.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_stop_light = global::ATG.Droid.Resource.Drawable.mr_media_stop_light;
 			global::Lottie.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::ATG.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
 			global::Lottie.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::ATG.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
 			global::Lottie.Forms.Droid.Resource.Drawable.navigation_empty_icon = global::ATG.Droid.Resource.Drawable.navigation_empty_icon;
@@ -990,6 +995,7 @@ namespace ATG.Droid
 			global::Lottie.Forms.Droid.Resource.Id.mr_chooser_title = global::ATG.Droid.Resource.Id.mr_chooser_title;
 			global::Lottie.Forms.Droid.Resource.Id.mr_close = global::ATG.Droid.Resource.Id.mr_close;
 			global::Lottie.Forms.Droid.Resource.Id.mr_control_divider = global::ATG.Droid.Resource.Id.mr_control_divider;
+			global::Lottie.Forms.Droid.Resource.Id.mr_control_playback_ctrl = global::ATG.Droid.Resource.Id.mr_control_playback_ctrl;
 			global::Lottie.Forms.Droid.Resource.Id.mr_control_subtitle = global::ATG.Droid.Resource.Id.mr_control_subtitle;
 			global::Lottie.Forms.Droid.Resource.Id.mr_control_title = global::ATG.Droid.Resource.Id.mr_control_title;
 			global::Lottie.Forms.Droid.Resource.Id.mr_control_title_container = global::ATG.Droid.Resource.Id.mr_control_title_container;
@@ -1216,6 +1222,7 @@ namespace ATG.Droid
 			global::Lottie.Forms.Droid.Resource.String.mr_controller_pause = global::ATG.Droid.Resource.String.mr_controller_pause;
 			global::Lottie.Forms.Droid.Resource.String.mr_controller_play = global::ATG.Droid.Resource.String.mr_controller_play;
 			global::Lottie.Forms.Droid.Resource.String.mr_controller_stop = global::ATG.Droid.Resource.String.mr_controller_stop;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_stop_casting = global::ATG.Droid.Resource.String.mr_controller_stop_casting;
 			global::Lottie.Forms.Droid.Resource.String.mr_controller_volume_slider = global::ATG.Droid.Resource.String.mr_controller_volume_slider;
 			global::Lottie.Forms.Droid.Resource.String.mr_system_route_name = global::ATG.Droid.Resource.String.mr_system_route_name;
 			global::Lottie.Forms.Droid.Resource.String.mr_user_route_category_name = global::ATG.Droid.Resource.String.mr_user_route_category_name;

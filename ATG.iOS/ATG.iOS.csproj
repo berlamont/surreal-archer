@@ -100,14 +100,14 @@
     <Reference Include="Calabash, Version=20.3.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.TestCloud.Agent.0.20.3\lib\Xamarin.iOS10\Calabash.dll</HintPath>
     </Reference>
-    <Reference Include="Lottie.Forms, Version=1.0.6295.35001, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.1.5.2\lib\xamarinios\Lottie.Forms.dll</HintPath>
+    <Reference Include="Lottie.Forms, Version=1.0.6340.25308, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.1.5.2.1\lib\xamarinios\Lottie.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Lottie.Forms.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.1.5.2\lib\xamarinios\Lottie.Forms.iOS.dll</HintPath>
+      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.1.5.2.1\lib\xamarinios\Lottie.Forms.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="Lottie.iOS, Version=1.0.6271.28030, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Com.Airbnb.iOS.Lottie.1.5.1.0\lib\xamarinios\Lottie.iOS.dll</HintPath>
+    <Reference Include="Lottie.iOS, Version=1.0.6340.25016, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Com.Airbnb.iOS.Lottie.1.5.1.1\lib\xamarinios\Lottie.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">

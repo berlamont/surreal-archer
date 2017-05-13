@@ -5,7 +5,8 @@ using System.Collections;
 
 
 using Xamarin.Forms;
-using Java.Util;
+
+
 using ATG.Views.Login;
 
 namespace ATG
@@ -47,7 +48,7 @@ namespace ATG
             LoginBackend login = new LoginBackend();
             if (login.TryLogin(Login))
             {
-                Navigation.PushAsync(new Page());
+                Navigation.PushAsync(new WelcomeStarterPage());
                 
             }
 
