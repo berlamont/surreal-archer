@@ -1,27 +1,17 @@
-using System;
-
 using Android.App;
-using Android.Content;
 using Android.Content.PM;
-using Android.Runtime;
 using Android.Views;
-using Android.Widget;
 using Android.OS;
-using Android.Graphics.Drawables;
 using Xamarin.Forms.Platform.Android;
-using Xamarin.Forms;
-using System.Threading.Tasks;
-
 using UXDivers.Artina.Shared;
 using UXDivers.Artina.Shared.Droid;
-
 using FFImageLoading.Forms.Droid;
-using Parse;
+using ATGShared;
 
 namespace ATG.Droid
 {
-	//https://developer.android.com/guide/topics/manifest/activity-element.html
-	[Activity(
+    //https://developer.android.com/guide/topics/manifest/activity-element.html
+    [Activity(
 		Label = "ATG",
 		Icon = "@drawable/icon",
 		Theme = "@style/Theme.Splash",

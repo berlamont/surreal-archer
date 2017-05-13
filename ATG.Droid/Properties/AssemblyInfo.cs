@@ -2,12 +2,6 @@ using System.Reflection;
 using Xamarin.Forms;
 using ATG;
 
-[assembly: AssemblyTitle (AssemblyGlobal.ProductLine + " - " + "Grial Xamarin.Forms UIKit (Android)")]
-[assembly: AssemblyConfiguration (AssemblyGlobal.Configuration)]
-[assembly: AssemblyCompany (AssemblyGlobal.Company)]
-[assembly: AssemblyProduct (AssemblyGlobal.ProductLine + " - " + "Grial Xamarin.Forms UIKit (Android)")]
-[assembly: AssemblyCopyright (AssemblyGlobal.Copyright)]
-
 [assembly: UXDivers.Artina.Shared.GrialVersion("2.0.52.0")]
 
 // Custom renderer definition.
