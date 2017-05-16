@@ -28,21 +28,28 @@
 						<RowDefinition Height="Auto" />
 					</Grid.RowDefinitions>
 
-					<!-- LOGO -->
-					<Grid 
+                <!-- LOGO -->
+                <Grid 
 						Grid.Row="0" 
 						WidthRequest="60"
 						HeightRequest="60"
 						Margin="20"
 						VerticalOptions="End"
 						HorizontalOptions="Start">
-					
-						<BoxView
-							BackgroundColor="{ DynamicResource AccentColor }"/>
-				
-					</Grid>
 
-					<!-- CLOSE ICON -->
+                    <BoxView
+							BackgroundColor="{ DynamicResource AccentColor }"/>
+
+                    <Label
+							TextColor="{ DynamicResource OverImageTextColor }"
+							FontSize="42"
+							Text="{ x:Static local:GrialShapesFont.LogoGrial }" 
+							Style="{StaticResource FontIcon}"
+							HorizontalTextAlignment="Center"
+							VerticalTextAlignment="Center"/>
+                </Grid>
+
+                <!-- CLOSE ICON -->
 					<Label
 						Grid.Row="0"
 						Style="{ DynamicResource IconCloseLabelStyle }" 

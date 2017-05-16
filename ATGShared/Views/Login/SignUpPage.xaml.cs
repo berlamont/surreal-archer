@@ -58,11 +58,17 @@ namespace ATGShared
 
             RegisterBackend backend = new RegisterBackend();
 
-            if (backend.TryRegister(signUp) == true)
+            if (string.IsNullOrEmpty(phone) || string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pass)  )
+            {
+
+            }
+            else if (backend.TryRegister(signUp) == true)
             {
                 Navigation.PushAsync(new WelcomeStarterPage());
             }
 
+           
+            
         }
         
 
