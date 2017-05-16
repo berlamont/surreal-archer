@@ -44,7 +44,15 @@ namespace ATGShared
 
 
             LoginBackend login = new LoginBackend();
-            if (login.TryLogin(Login))
+
+
+
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+
+            }
+
+            else if (login.TryLogin(Login))
             {
                 Navigation.PushAsync(new Page());
 
